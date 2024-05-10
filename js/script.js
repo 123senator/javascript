@@ -69,4 +69,55 @@ let x = 10;
 console.log(++x);
 console.log(x);
 // console.log(x++); "Remember: the ++ sign placed before adds 1 immediately but when placed after you have to run console.log(x) to give the current value of x in the console."
+console.log(--x);
+console.log(x);
 
+// Assignment Operators
+let x2 = 3;
+let y = 4;
+x2 += y;   
+// x2 = x2+ y ;; x2 = 3 + 4
+console.log(x2);
+console.log(y);
+
+y += x2;
+// y = x2 + y
+console.log(y, x2);
+console.log(y + x2);
+
+// loose equality: just checks for the value
+// comparison operators
+let a = 20;
+let c = 30;
+console.log(a == c);
+
+// Strict equality: seeks for the data type
+// let a = "30";
+// let a = 30;
+// console.log(a === c); false
+
+// let a = "30";
+// let c = "30";
+// console.log(a != c); false
+
+// let a = 30;
+// let c = 30;
+// console.log(a !== c); false
+// let a = "30";
+// let c = 30;
+// console.log(a !== c); true
+
+// console.log(a > c); false
+// console.log(a >= c); true
+// console.log(a < c); false
+// console.log(a <= c); true
+
+// operator precedence
+console.log(23 - 50 * 3 **3);
+// 23 -50 * 27
+// 23 - 1350
+console.log((23 - 50) * 3 **3);
+// 
+// console.log(4 + 5 + 6);
+let j = 4 + 5 + 6;
+console.log((4 + 5 + 6) / 3);
